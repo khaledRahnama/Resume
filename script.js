@@ -63,3 +63,7 @@ skills.forEach((skill) => {
   skill.style.borderRadius = "5px";
   skill.style.margin = "2px";
 });
+
+// make the year the current year
+const year = document.getElementById("published-year");
+year.textContent = new Date().getFullYear();
