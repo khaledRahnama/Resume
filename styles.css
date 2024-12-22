@@ -106,12 +106,12 @@ header .btn-primary:hover {
 .skills-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
 }
 
 .skills-list span {
   padding: 10px 15px;
-  background: #e6e6eb;
   border-radius: 8px;
   font-size: 0.9rem;
 }
